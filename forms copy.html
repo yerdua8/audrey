@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<meta charset="UTF-8">
+<title> Forms </title>
+</head> 
+
+<div class="container">
+<body>
+<!-- NAVIGATION -->
+<div class="allnav">
+<nav>
+<ul>
+ <div class="nav1"><li><a href="index.html"><span class=underline2>About</span></a></li></div>
+
+<div class="nav2"><li><a href="about.html"><span class="underline1">Upcoming shows and music </span> </a></li></div>
+
+<div class="nav3"><li><a href="imagegallery.html"><span class="underline3">Image Gallery </span> </a></li></div>
+     
+<div class="nav4"><li><a href="forms.html"><span class="underline4">Forms</span> </a></li></div>
+</ul>
+</nav>
+</div>
+<!-- NAVIGATION END -->
+    
+<!-- Header -->
+<a name="topofpage"></a>
+<h1>Forms</h1>
+<!--header end -->
+    
+<!--BODY-->
+    <form action="/thankyou.html" method="POST">
+  <fieldset>
+    <legend>Personal Information:</legend>
+    <label for="txt">Text:</label>
+    <input type="text" id="txt" name="txt" required><br><br>
+    <label for="tphone">Telephone:</label>
+    <input type="text" id="tphone" name="tphone"  pattern="{10}" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+      
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+      
+<input type="radio" id="Prefer not to say" name="gender" value="Prefer not to say">
+<label for="Prefer not to say">Prefer not to say</label><br>
+      
+        </fieldset> <br>
+     <fieldset> 
+         <legend>Venue Information:</legend>
+    <label for="Date of Concert">Date of Concert:</label>
+    <input type="date" id="date" name="date"><br><br>
+      
+      <label for="state">State Attending In:</label>
+
+<select id="state">
+  <option value="Utah">Utah</option>
+  <option value="Idaho">Idaho</option>
+  <option value="Arizona">Arizona</option>
+  <option value="Wyoming">Wyoming</option>
+  <option value="Nevada">Nevada</option>
+  <option value="California">California</option>
+</select>
+
+      <br><label for="Comments"> Comments</label><br>
+      <textarea id: comments ></textarea>
+        
+          </fieldset>
+<br><fieldset>
+<legend>Additional Information:</legend>
+<label for="additional Information">Favorite Genres of music</label><br>
+
+<input type="checkbox" id="genre1" name="genre1" value="Indie">
+<label for="genre1">Indie</label><br>
+    
+<input type="checkbox" id="genre2" name="genre2" value="Alternative">
+<label for="genre2"> Alternative</label><br>
+    
+<input type="checkbox" id="genre3" name="genre3" value="Classic Rock">
+<label for="genre3"> Classic Rock</label><br>
+        
+<input type="checkbox" id="genre4" name="genre4" value="Pop">
+<label for="genre4">Pop</label><br>
+
+<input type="checkbox" id="genre5" name="genre5" value="Country">
+<label for="genre5">Country</label><br>
+
+<input type="checkbox" id="genre6" name="genre6" value="Rap">
+<label for="genre6">Rap</label><br>
+
+<br><input type="submit" value="Purchase Tickets"><br>
+        
+        </fieldset>
+        
+        
+    </form>
+    
+    
+    <br>
+    <br>
+    <br>
+   
+    <a href="index.html">Back to Home</a>
+      <p><a href="#topofpage2">top of page</a></p>
+ 
+    
+
+
+<article>
+<footer>©The Rubies LLC <h6>designed by Audrey Macfarlane 2/25/20</h6></footer>
+</article>
+    
+    </body>
+    </div>
+</html>
